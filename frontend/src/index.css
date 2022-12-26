@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.product-btn {
+  margin-top: 25px;
+  width: 100%;
+}
+.product-btn button {
+  display: block;
+  margin: 0 auto;
+  background-color: #001e28;
+  color: white;
+  box-shadow: 0 0 5px #001e28;
+  transition: all 0.5s;
+  border: none;
+}
+.product-btn button:hover {
+  background-color: white;
+  color: #001e28;
+}
+.ant-layout-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-items {
+  position: relative;
+  margin-right: 25px;
+  cursor: pointer;
+}
+.ant-layout-header .anticon svg {
+  font-size: 30px;
+  vertical-align: middle;
+}
+.cart-items span {
+  font-size: 18px;
+}
+.cart-badge {
+  padding: 5px;
+  top: -10px;
+  right: -25px;
+  background-color: #001e28;
+  color: white;
+  border-radius: 50px;
+}
+.cart-minus {
+  margin-right: 10px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.cart-minus:hover {
+  filter: drop-shadow(0 0 2px #001e28);
+  color: white;
+}
+
+.cart-plus {
+  margin-left: 10px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.cart-plus:hover {
+  filter: drop-shadow(0 0 2px #001e28);
+  color: white;
+}
+.cart-quantity {
+  font-size: 20px;
+  vertical-align: bottom;
+}
+.cart-action {
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.cart-action:hover {
+  filter: drop-shadow(0 0 2px #ff0000);
+  color: white;
+}
+.loading {
+  position: absolute;
+  left: 50%;
+  top: 25%;
+  text-align: center;
+  letter-spacing: 1.3px;
+  color: #001e28;
+}
+
+.cart-edit {
+  cursor: pointer;
+  transition: all 0.5s;
+  margin-left: 30px;
+}
+.cart-action:hover {
+  filter: drop-shadow(0 0 2px #0000ff);
+  color: white;
+}
+.add-new {
+  display: block !important;
+  margin: 0 0 15px auto !important;
+  background-color: #001e28 !important;
+  color: white !important;
+  box-shadow: 0 0 5px #001e28 !important;
+  transition: all 0.5s;
+  border: none !important;
+  margin-bottom: 15px;
+}
+.add-new:hover {
+  background-color: white !important;
+  color: #001e28 !important;
+}
+.category {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  padding: 5px;
+}
+
+.categoryFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 30px;
+  cursor: pointer;
+  padding: 5px;
+}
+.category-active {
+  box-shadow: 0 0 8px #afafaf;
+  border-radius: 5px;
+}
+.categoryName {
+  text-transform: capitalize;
+  letter-spacing: 1.3px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.form h2 {
+  letter-spacing: 2px;
+  color: #001e28;
+}
+.form p {
+  letter-spacing: 1.3px;
+  color: #001e28;
+}
+.form-group {
+  box-shadow: 0 0 5px #001e28;
+  padding: 10px 5px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.form-group input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #001e28;
+  width: 350px;
+  height: 40px;
+  padding: 5px 15px;
+}
+
+.form-group input:focus,
+.form-group input:hover {
+  outline: none;
+  border-color: #001e28;
+}
+.form-other {
+  color: #001e28;
+  letter-spacing: 1.3px;
+}
+.form-other:hover {
+  color: #001e28;
+  text-decoration: underline;
+}
+
+.categoryFlex {
+  width: 170px !important;
+}
+.spinner h2 {
+  margin-top: 200px;
+}

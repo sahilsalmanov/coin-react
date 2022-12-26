@@ -1,0 +1,186 @@
+//Now i create data file for products, because it's easier
+//This time I will show you how to manually enter a file in DB, I will not create a seed file
+const products = [
+  {
+    name: "Canadian Beaver",
+    category: "Commemorative",
+    price: 40,
+    image: "/images/CanadianBeaver.png",
+  },
+  {
+    name: "A penny",
+    category: "Commemorative",
+    price: 8,
+    image: "/images/A penny_1.png",
+  },
+  {
+    name: "Looney",
+    category: "Commemorative",
+    price: 65,
+    image: "/images/Looney.png",
+  },
+  {
+    name: "Jefferson",
+    category: "Commemorative",
+    price: 35,
+    image: "/images/Jefferson_2.png",
+  },
+  {
+    name: "25 cent",
+    category: "Commemorative",
+    price: 80,
+    image: "/images/25cents_1.png",
+  },
+  {
+    name: "Franc",
+    category: "Investment",
+    price: 68,
+    image: "/images/Franc_2.png",
+  },
+  {
+    name: "Kennedy",
+    category: "Commemorative",
+    price: 43,
+    image: "/images/Kennedy_2.png",
+  },
+  {
+    name: "Canadian Cent",
+    category: "Commemorative",
+    price: 8,
+    image: "/images/CanadianCent_1.png",
+  },
+  {
+    name: "Dim Sum",
+    category: "Commemorative",
+    price: 10,
+    image: "/images/Dim Sum_2.png",
+  },
+  {
+    name: "South Vietnamese Dong",
+    category: "Investment",
+    price: 2,
+    image: "/images/South Vietnamese Dong_2.png",
+  },
+  {
+    name: "Stork",
+    category: "Investment",
+    price: 54,
+    image: "/images/Stork_1.png",
+  },
+  {
+    name: "The British Antelope",
+    category: "Investment",
+    price: 78,
+    image: "/images/The British Antelope_1.png",
+  },
+  {
+    name: "Cron",
+    category: "Investment",
+    price: 79,
+    image: "/images/Cron_1.png",
+  },
+  {
+    name: "Gyeonggi",
+    category: "Investment",
+    price: 97,
+    image: "/images/Gyeonggi_2.png",
+  },
+  {
+    name: "Bolivian Peso",
+    category: "Investment",
+    price: 54,
+    image: "/images/Bolivian Peso_1.png",
+  },
+  {
+    name: "Botswana",
+    category: "Investment",
+    price: 62,
+    image: "/images/Bolivian Peso_1.png",
+  },
+  {
+    name: "Virginia",
+    category: "Investment",
+    price: 108,
+    image: "/images/Virginia_1.png",
+  },
+  {
+    name: "Theobroma Cocoa",
+    category: "Investment",
+    price: 54,
+    image: "/images/Theobroma Cocoa_2.png",
+  },
+  {
+    name: "Coin of the Weimar Republic",
+    category: "Investment",
+    price: 142,
+    image: "/images/Coin of the Weimar Republic_1.png",
+  },
+  {
+    name: "Scientist",
+    category: "Investment",
+    price: 112,
+    image: "/images/20.png",
+  },
+  {
+    name: "Lion sedge",
+    category: "Exclusive",
+    price: 76,
+    image: "/images/Lion sedge_1.png",
+  },
+  {
+    name: "Rial",
+    category: "Exclusive",
+    price: 98,
+    image: "/images/Rial_1.png",
+  },
+  {
+    name: "ISK",
+    category: "Exclusive",
+    price: 78,
+    image: "/images/ISK_2.png",
+  },
+  {
+    name: "Yemen",
+    category: "Exclusive",
+    price: 69,
+    image: "/images/Yemen_1.png",
+  },
+  {
+    name: "Woman",
+    category: "Exclusive",
+    price: 48,
+    image: "/images/Woman_2.png",
+  },
+  {
+    name: "Alligator",
+    category: "Exclusive",
+    price: 78,
+    image: "/images/Alligatorv_2.png",
+  },
+  {
+    name: "The Golden Panda",
+    category: "Exclusive",
+    price: 82,
+    image: "/images/The Golden Panda_2.png",
+  },
+  {
+    name: "Costa Rica",
+    category: "Exclusive",
+    price: 78,
+    image: "/images/Costa Rica_2.png",
+  },
+  {
+    name: "Year of the children",
+    category: "Exclusive",
+    price: 72,
+    image: "/images/Year of the children_1.png",
+  },
+  {
+    name: "Sailboat",
+    category: "Exclusive",
+    price: 134,
+    image: "/images/Sailboat_2.png",
+  },
+];
+
+export default products;
